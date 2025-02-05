@@ -16,7 +16,7 @@ import {
   Menu,
   X,
 } from "lucide-react";
-import { UserButton } from "@clerk/nextjs";
+
 import { Input } from "./ui/input";
 
 export default function Header() {
@@ -99,7 +99,7 @@ export default function Header() {
               <span className="bg-gray-100 font-bold text-black px-2 py-1 rounded">
                 Login/Register
               </span>
-              <UserButton />
+              {/* <UserButton /> */}
             </button>
 
             {/* Search */}
@@ -157,7 +157,7 @@ export default function Header() {
               <Link href="/grid-cards">Our Products</Link>
             </li>
           </ul>
-          <UserButton />
+          {/* <UserButton /> */}
         </div>
       )}
     </>
